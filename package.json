@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Project for running postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-testenv": "newman run tests/SamplePostmanTests.postman_collection.json"
+  },
+  "author": "Abhishek Roy",
+  "dependencies": {
+    "newman": "^4.3.1"
+  }
+}

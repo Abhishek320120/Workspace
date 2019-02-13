@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="SampleTestProxy">
+    <Basepaths>/v1/sampletestproxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1549983651964</CreatedAt>
+    <CreatedBy>abhishekroy.aec@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>SampleTestProxy</DisplayName>
+    <LastModifiedAt>1549983651964</LastModifiedAt>
+    <LastModifiedBy>abhishekroy.aec@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8f349c17f6603b5c281c2959fcdacc350e2cab4678e07342eef70756db42cf748eddecadc6a2bb3334e00007cdf943b63d4f738046651fdf91fc9d73dd9ea837</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

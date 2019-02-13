@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "41cc0ac9-684d-4dbd-bd2f-3905ad575507",
+		"name": "SamplePostmanTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://abhishekroyaec-eval-test.apigee.net/v1/sampletestproxy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2704c34d-fc85-423b-9b9a-a77f3c93c6c1",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://abhishekroyaec-eval-test.apigee.net/v1/sampletestproxy",
+					"protocol": "http",
+					"host": [
+						"abhishekroyaec-eval-test",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"v1",
+						"sampletestproxy"
+					]
+				},
+				"description": "Sample Postman tests for Apigee"
+			},
+			"response": []
+		}
+	]
+}
